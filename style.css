@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+	text-transform: capitalize;
+	font-family: Arial,Helvetica, sans-serif;
+
+}
+.container{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #333;
+}
+
+.container .email-signature{
+	width: 900px;
+	display: flex;
+	align-items: center;
+	background: #222;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px #000;
+	padding: 10px 40px;
+	position: relative;
+overflow: hidden;
+}
+.container .email-signature .image img{
+height: 150px;
+width: 150px;
+object-fit: cover;
+border-radius: 50%;
+border: 5px solid #fff;
+box-shadow: 0 0 5px #333;
+position: relative;
+
+}
+.container .email-signature .image:before{
+	content: '';
+	position: absolute;
+	top: -25px;
+	right: 70%;
+	height: 300px;
+	width: 300px;
+	background: #f0f0f0;
+	border-radius: 50%;
+	box-shadow: 20px 0 0 #2c3e50;
+
+
+}
+ .content{
+	padding-left: 60px;
+}
+ .name{
+	padding-left: 85px;
+	font-size: 25px;
+	color: #f0f0f0;
+
+}
+ .post{
+	font-size: 15px;
+	padding: 10px 0;
+	margin: 10px 69px;
+	border-radius: 50px;
+	background: #ccc;
+	color: #333;
+	text-align: center;
+	margin-left: 66px;
+
+
+}
+.contact{
+	margin-top: 30px;
+	margin-left: 72px;
+
+}
+ li{
+	list-style-type: none;
+	margin: 10px 0;
+	color: #ccc;
+	font-weight: 600px;
+	letter-spacing: 2px;
+}
+li i{
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	text-align: center;
+}
+.icons{
+	position: absolute;
+	top: 18%;
+right: 23px;
+	transform: translate(-50%);
+	display: flex;
+	flex-flow: column;
+}
+.icons a{
+	text-decoration: none;height: 35px;
+	width: 35%;
+	line-height: 35px;
+	text-align: center;
+	
+
+	color: #fff;
+	border-radius: 50%;
+
+}
+.icons a:hover{
+	color: #333;
+
+}
